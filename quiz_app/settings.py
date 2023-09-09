@@ -99,14 +99,25 @@ WSGI_APPLICATION = 'quiz_app.wsgi.application'
 #     }
 # }
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'whftzvdw',
+#         'USER': 'whftzvdw',
+#         'PASSWORD': 'k5hppIfclZDeylm6u8uWfWaZ8uu26aqr',
+#         'HOST': 'floppy.db.elephantsql.com',
+#         'PORT': '5432',
+#     }
+# }
+
+# pythonAnywhere database 연동
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'whftzvdw',
-        'USER': 'whftzvdw',
-        'PASSWORD': 'k5hppIfclZDeylm6u8uWfWaZ8uu26aqr',
-        'HOST': 'floppy.db.elephantsql.com',
-        'PORT': '5432',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'retinan$drf_quiz_test',
+        'USER': 'retinan',
+        'PASSWORD': 'qwrt12@@',
+        'HOST': 'retinan.mysql.pythonanywhere-services.com'
     }
 }
 
