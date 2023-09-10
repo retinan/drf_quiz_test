@@ -92,12 +92,12 @@ WSGI_APPLICATION = 'quiz_app.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
 
 # DATABASES = {
 #     'default': {
@@ -111,15 +111,15 @@ WSGI_APPLICATION = 'quiz_app.wsgi.application'
 # }
 
 # pythonAnywhere database 연동
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'retinan$drf_quiz_test',
-        'USER': 'retinan',
-        'PASSWORD': 'qwrt12@@',
-        'HOST': 'retinan.mysql.pythonanywhere-services.com'
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'retinan$drf_quiz_test',
+#         'USER': 'retinan',
+#         'PASSWORD': 'qwrt12@@',
+#         'HOST': 'retinan.mysql.pythonanywhere-services.com'
+#     }
+# }
 
 
 
